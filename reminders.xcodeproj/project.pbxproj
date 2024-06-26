@@ -11,6 +11,8 @@
 		BD68E0492C2C85FE00EBD61E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68E0482C2C85FE00EBD61E /* ContentView.swift */; };
 		BD68E04B2C2C85FF00EBD61E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD68E04A2C2C85FF00EBD61E /* Assets.xcassets */; };
 		BD68E04E2C2C85FF00EBD61E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD68E04D2C2C85FF00EBD61E /* Preview Assets.xcassets */; };
+		BD68E0552C2C876000EBD61E /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68E0542C2C876000EBD61E /* NewToDoView.swift */; };
+		BD68E0572C2C8AC200EBD61E /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68E0562C2C8AC200EBD61E /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BD68E0482C2C85FE00EBD61E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD68E04A2C2C85FF00EBD61E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD68E04D2C2C85FF00EBD61E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD68E0542C2C876000EBD61E /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BD68E0562C2C8AC200EBD61E /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BD68E0462C2C85FE00EBD61E /* remindersApp.swift */,
 				BD68E0482C2C85FE00EBD61E /* ContentView.swift */,
+				BD68E0542C2C876000EBD61E /* NewToDoView.swift */,
+				BD68E0562C2C8AC200EBD61E /* ToDoItem.swift */,
 				BD68E04A2C2C85FF00EBD61E /* Assets.xcassets */,
 				BD68E04C2C2C85FF00EBD61E /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD68E0552C2C876000EBD61E /* NewToDoView.swift in Sources */,
 				BD68E0492C2C85FE00EBD61E /* ContentView.swift in Sources */,
+				BD68E0572C2C8AC200EBD61E /* ToDoItem.swift in Sources */,
 				BD68E0472C2C85FE00EBD61E /* remindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
